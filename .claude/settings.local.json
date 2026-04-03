@@ -1,0 +1,40 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__github__get_file_contents",
+      "Bash(git checkout:*)",
+      "Bash(curl -sL \"https://raw.githubusercontent.com/CommonPaper/CSA/main/CSA.md\" -o CSA.md)",
+      "Bash(curl -sL \"https://raw.githubusercontent.com/CommonPaper/Design-Partner-Agreement/main/design-partner-agreement.md\" -o design-partner-agreement.md)",
+      "Bash(curl -sL \"https://raw.githubusercontent.com/CommonPaper/SLA/main/sla.md\" -o sla.md)",
+      "Bash(curl -sL \"https://raw.githubusercontent.com/CommonPaper/PSA/main/psa.md\" -o psa.md)",
+      "Bash(curl -sL \"https://raw.githubusercontent.com/CommonPaper/DPA/main/DPA.md\" -o DPA.md)",
+      "Bash(curl -sL \"https://raw.githubusercontent.com/CommonPaper/Partnership-Agreement/main/Partnership-Agreement.md\" -o Partnership-Agreement.md)",
+      "Bash(curl -sL \"https://raw.githubusercontent.com/CommonPaper/Software-License-Agreement/main/Software-License-Agreement.md\" -o Software-License-Agreement.md)",
+      "Bash(curl -sL \"https://raw.githubusercontent.com/CommonPaper/Pilot-Agreement/main/Pilot-Agreement.md\" -o Pilot-Agreement.md)",
+      "Bash(curl -sL \"https://raw.githubusercontent.com/CommonPaper/BAA/main/BAA.md\" -o BAA.md)",
+      "Bash(curl -sL \"https://raw.githubusercontent.com/CommonPaper/AI-Addendum/main/AI-Addendum.md\" -o AI-Addendum.md)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "Bash(gh pr:*)",
+      "mcp__github__create_pull_request",
+      "mcp__atlassian__transitionJiraIssue",
+      "mcp__atlassian__searchJiraIssuesUsingJql",
+      "Skill(agent-browser)",
+      "Bash(agent-browser wait:*)",
+      "Bash(agent-browser snapshot:*)",
+      "Bash(agent-browser screenshot:*)",
+      "Bash(agent-browser click:*)",
+      "Bash(agent-browser fill:*)",
+      "mcp__github__merge_pull_request",
+      "Bash(git pull:*)",
+      "Bash(git merge:*)",
+      "mcp__atlassian__getAccessibleAtlassianResources",
+      "mcp__atlassian__getJiraIssue",
+      "Bash(npx create-next-app@latest frontend --typescript --tailwind --eslint --app --src-dir --no-turbopack --import-alias \"@/*\" --use-npm)",
+      "Bash(npm install:*)",
+      "Bash(mkdir -p C:/Users/julien.hamerlinck/projects/prelegal/frontend/public/templates)",
+      "Bash(cp C:/Users/julien.hamerlinck/projects/prelegal/templates/Mutual-NDA.md C:/Users/julien.hamerlinck/projects/prelegal/frontend/public/templates/)",
+      "Bash(cp C:/Users/julien.hamerlinck/projects/prelegal/templates/Mutual-NDA-coverpage.md C:/Users/julien.hamerlinck/projects/prelegal/frontend/public/templates/)"
+    ]
+  }
+}
